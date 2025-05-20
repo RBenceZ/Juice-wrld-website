@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Juice WRLD Tribute</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <!-- Betöltjük az Orbitron fontot 900-as vastagsággal -->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+
   <style>
     body {
       margin: 0;
@@ -23,11 +26,67 @@
       margin-bottom: 10px;
     }
 
+    .span-999 {
+      font-weight: 900;
+      font-size: 3em;
+      color: #000; /* fekete alap */
+      letter-spacing: 0.1em;
+      font-family: 'Orbitron', sans-serif;
+
+      /* tetkó hatás kontúr és árnyék */
+      text-shadow:
+        2px 2px 0 #555,
+        -2px -2px 0 #555,
+        2px -2px 0 #555,
+        -2px 2px 0 #555,
+        0 0 5px #222,
+        0 0 10px #111;
+
+      filter: contrast(150%) saturate(10%);
+      opacity: 0.9;
+
+      -webkit-font-smoothing: none;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
     .main-image {
-      width: 80%;
-      max-height: 1000px;
+      width: 78%;
+      max-height: 700px;
       object-fit: contain;
       border-bottom: 4px solid #9900cc;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: left;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #ff66ff;
+      border-bottom: 2px solid #9900cc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .section p, .section ul {
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .section ul li::before {
+      content: "🎵 ";
+    }
+
+    .spotify-link a {
+      color: #00e0ff;
+      text-decoration: none;
     }
 
     .image-grid {
@@ -65,13 +124,61 @@
 
   <header>
     <h1>Juice WRLD Forever 🕊️</h1>
-    <p>999 Till Infinity</p>
+    <p><span class="span-999">999</span></p>
   </header>
 
-  <img class="main-image" src="edf2456b4462896a113a531e48ca65a6.jpg" alt="Juice WRLD fő kép">
+  <img class="main-image" src="Rapper-Juice-WRLD-performs-Rolling-Loud-Festival-Los-Angeles-2018.webp" alt="Juice WRLD fő kép">
+
+  <div class="section">
+    <h2>Hosszabb életrajz</h2>
+    <p>Jarad Anthony Higgins, művésznevén Juice WRLD, 1998. december 2-án született az Egyesült Államokban, Chicagóban.
+Már fiatal korától fogva érdekelte a zene, és hamar felfedezte magának a rap és az emo rap műfajokat, ahol a mély érzelmek és őszinte történetek központi szerepet kaptak.
+      Neve a „Juice” szóból ered, ami a hatalom, befolyás szimbóluma, míg az „WRLD” a világot jelképezi — ezzel is kifejezve, hogy zenéjével az egész világot meg akarja hódítani.</p>
+     <p><br>Juice WRLD karrierje 2017-ben kezdett igazán beindulni, amikor megjelent a „Lucid Dreams” című száma, ami hatalmas népszerűséget hozott neki az interneten és a rádiókban egyaránt.
+      A dal főként az elveszett szerelem és a fájdalom témáit dolgozza fel, ami sok fiatal szívéhez szólt, és egyből nagy rajongótábort szerzett számára.
+      Az ezt követő albumai, mint a „Goodbye & Good Riddance” és a „Death Race for Love” tovább erősítették Juice helyét a modern hiphop színterén.</p>
+      <p><br>Zenei stílusa különlegesen ötvözi a trap, emo rap, és alternatív hiphop elemeit, miközben őszinte, nyers érzelmeket, mentális egészséggel kapcsolatos témákat és személyes történeteket mutat be. Juice WRLD nem félt a sebezhetőségtől, gyakran beszélt a depresszióról, szorongásról és küzdelmeiről, ami a rajongók számára nagy segítség és inspiráció volt.
+      Sajnos Juice WRLD élete tragikusan rövidre szabott.</p>
+      <p><br>2019. december 8-án, mindössze 21 éves korában hunyt el váratlanul egy repülőgépen, ami nagy sokkot és gyászt okozott a zeneközösségben és rajongói között világszerte.
+      Halála után is megjelentek posztumusz albumai és dalai, melyek tovább vitték az üzenetét és hatását.</p>
+      <p><br>Juice WRLD öröksége nem csak a zenéjében, hanem abban is rejlik, hogy mennyi fiatalnak adott erőt, hogy beszéljenek a mentális egészségről, és hogy nem kell egyedül küzdeniük a nehézségeikkel. Hangja, stílusa és személyisége továbbra is él és inspirál.</p>
+        </p>
+    </div>
+    <div class="section">
+  <h2>A 999 jelentése Juice WRLD szerint</h2>
+  <p>
+    Juice WRLD gyakran beszélt arról, hogy a <strong>999</strong> szám a pozitív hozzáállást és a nehézségek legyőzését jelenti.  
+    A 999 a 666 ellentéte — míg a 666 a negatív energiát és a nehézségeket szimbolizálja, addig a 999 a felemelkedést, a kitartást és a fejlődést jelenti.
+    Ez egy olyan szám, amely arra ösztönzi a rajongókat, hogy fordítsák meg a rossz dolgokat jóvá, és mindig keressék a fényt a sötétségben.
+  </p>
+  <p>
+    A 999 tehát Juice WRLD életfilozófiájának egyik fontos jelképe volt, amely megmutatta, hogy a küzdelmek ellenére is mindig van remény és lehetőség az újrakezdésre.
+  </p>
+</div>
+
+
+  <div class="section">
+    <h2>Szeméyles kedvenc számaiam</h2>
+    <ul>
+      <li><a href="https://open.spotify.com/track/3wwo0bJvDSorOpNfzEkfXx" target="_blank">Let me know</a></li>
+      <li><a href="https://open.spotify.com/track/6yVfs5OBNdLI3Np7D0IMB0" target="_blank">Hurt me</a></li>
+      <li><a href="https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR" target="_blank">Lucid dreams</a></li>
+      <li><a href="https://open.spotify.com/track/6BjtaWm1T4kDWAqHrf8vEi" target="_blank">Legends</a></li>
+      <li><a href="https://open.spotify.com/track/1a7WZZZH7LzyvorhpOJFTe" target="_blank">Wasted</a></li>
+      <li><a href="https://open.spotify.com/track/3i6sCTU7ENlnHpHvrHUitW" target="_blank">Sometimes</a></li>
+      <li><a href="https://open.spotify.com/track/6wQlQrTY5mVS8EGaFZVwVF" target="_blank">Smile</a></li>
+    </ul>
+  </div>
+
+  <div class="section spotify-link">
+    <h2>Spotify</h2>
+    <p>Hallgasd meg Juice WRLD zenéit itt: 
+      <a href="https://open.spotify.com/track/3wwo0bJvDSorOpNfzEkfXx" target="_blank">Spotify profil</a>
+    </p>
+  </div>
 
   <div class="image-grid">
-    <a href="oldal1.html">  
+    <a href="album1.html">  
       <img src="album1.jpg" alt="Album 1">
     </a>
     <a href="oldal2.html">
